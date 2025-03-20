@@ -1,12 +1,49 @@
-# React + Vite
+# Rich Text Editor with Variable Insertion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setup
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
 
-Currently, two official plugins are available:
+## Features
+- Rich text formatting (bold, italic, headings)
+- Variable insertion triggered by typing "{{"
+- Popover menu for variable selection
+- Styled variable tokens with "Change variable" option
+- Content export in JSON and HTML formats
+- UI matching the provided screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+1. Type text in the editor
+2. Type "{{" to trigger variable suggestions
+3. Select a variable from the popover
+4. Click a variable token to change it
+5. Use toolbar buttons for formatting
+6. Click "Export" to see content in console
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### Project Structure: Shows the file structure for easy navigation.
+tipdocks-editor/
+├── src/
+│   ├── components/
+│   │   ├── Editor.jsx        # Main editor component
+│   │   ├── Editor.css        # Styles for the editor
+│   │   └── VariableList.jsx  # Popover component for variable selection
+│   ├── extensions/
+│   │   └── VariableExtension.js  # Custom TipTap extension for variable insertion
+│   ├── variables.js          # Predefined variables for insertion
+│   ├── App.jsx               # Main app component
+│   ├── App.css               # Styles for the app layout
+│   ├── index.css             # Global styles
+│   ├── main.jsx              # Entry point
+│   └── ...
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+1. **Known Issues**: Documents the Grammarly issue and provides workarounds, as discussed in the previous response.
+2. **Screenshots**: Includes screenshots.
+
+---
+

@@ -1,0 +1,109 @@
+.editor-wrapper {
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  color: #666;
+  font-size: 14px;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.editor-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 20px;
+  background: #fff;
+}
+
+.toolbar {
+  margin-bottom: 15px;
+}
+
+.toolbar button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.toolbar button.is-active {
+  background: #e0e0e0;
+}
+
+.variable-token {
+  background-color: #007bff;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.variable-suggestion-list, .variable-dropdown {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.variable-suggestion-list button, .variable-dropdown button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 5px 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.variable-suggestion-list button:hover, .variable-dropdown button:hover {
+  background: #f0f0f0;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.use-template-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.use-template-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Editor content styles */
+.ProseMirror {
+  min-height: 200px;
+}
+
+.ProseMirror h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.ProseMirror p {
+  margin: 5px 0;
+}

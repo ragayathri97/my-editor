@@ -1,0 +1,104 @@
+.editor-container {
+    padding: 16px;
+  }
+  
+  .toolbar {
+    margin-bottom: 8px;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .toolbar-button {
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .toolbar-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .toolbar-button.active {
+    background-color: #d0d0d0;
+  }
+  
+  .editor-content {
+    background-color: transparent; 
+    border: 1px solid #ccc;
+    padding: 16px 30px;
+    border-radius: 4px;
+    min-height: 200px;
+    transition: background-color 0.3s; 
+  }
+  
+  .editor-content:empty {
+    background-color: #f9f9f9; 
+  }
+  
+  .editor-content h2 {
+    padding-left: 10px;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+  
+  .editor-content p {
+    padding: 5px 10px;
+    margin-bottom: 3px;
+  }
+  
+  .variable-token {
+    background-color: #e6d9ff;
+    color: #6b21a8;
+    padding: 2px 4px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  .export-section {
+    margin-top: 16px;
+  }
+  
+  .export-button {
+    padding: 8px 16px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .export-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .variable-list {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(224, 117, 29, 0.1);
+    padding: 8px;
+    max-height: 240px;
+    overflow-y: auto;
+  }
+  
+  .variable-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .variable-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .variable-item.selected {
+    background-color: #e0e0e0;
+  }
+  
+  .no-variables {
+    padding: 8px;
+    color: #666;
+  }
