@@ -44,9 +44,9 @@ tipdocks-editor/
 └── README.md
 1. **Known Issues**: Documents the Grammarly issue and provides workarounds, as discussed in the previous response.
 2. **Screenshots**: Includes screenshots.
-[![Alt text](assets/first.png)]
-[![Alt text](assets/filled.png)]
-[![Alt text](assets/export.png)]
+[![Alt text](assets/first.png)] (https://github.com/ragayathri97/my-editor/blob/main/src/assets/first.png)
+[![Alt text](assets/filled.png)] (https://github.com/ragayathri97/my-editor/blob/main/src/assets/filled.png)
+[![Alt text](assets/export.png)] (https://github.com/ragayathri97/my-editor/blob/main/src/assets/export.png)
 
 ---
 
