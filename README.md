@@ -43,7 +43,8 @@ tipdocks-editor/
 ├── vite.config.js
 └── README.md
 1. **Known Issues**: Documents the Grammarly issue and provides workarounds, as discussed in the previous response.
-2. **Screenshots**: Includes screenshots.
+2. **Responsive Design**: The editor is fully responsive, adapting to various screen sizes (desktop, tablet, mobile) with adjusted padding, font sizes, and layout.
+3. **Screenshots**: Includes screenshots.
 ![First Screenshot](src/assets/first.png)
 ![Filled Screenshot](src/assets/filled.png)
 ![Export Screenshot](src/assets/export.png)
