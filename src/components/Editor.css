@@ -6,6 +6,7 @@
     margin-bottom: 8px;
     display: flex;
     gap: 8px;
+    flex-wrap: wrap;
   }
   
   .toolbar-button {
@@ -59,6 +60,7 @@
   
   .export-section {
     margin-top: 16px;
+    text-align: right;
   }
   
   .export-button {
@@ -83,6 +85,7 @@
     padding: 8px;
     max-height: 240px;
     overflow-y: auto;
+    width: 200px;
   }
   
   .variable-item {
@@ -101,4 +104,137 @@
   .no-variables {
     padding: 8px;
     color: #666;
+  }
+
+  @media (max-width: 1024px) {
+    .editor-container {
+      padding: 12px;
+    }
+  
+    .editor-content {
+      padding: 12px 20px;
+      min-height: 180px;
+    }
+  
+    .editor-content h2 {
+      font-size: 1.4em;
+    }
+  
+    .variable-list {
+      width: 180px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .editor-container {
+      padding: 8px;
+    }
+  
+    .toolbar {
+      gap: 6px;
+    }
+  
+    .toolbar-button {
+      padding: 6px;
+      font-size: 0.9em; 
+    }
+  
+    .editor-content {
+      padding: 10px 15px;
+      min-height: 150px;
+      border-radius: 3px;
+    }
+  
+    .editor-content h2 {
+      font-size: 1.2em;
+      padding-left: 8px;
+    }
+  
+    .editor-content p {
+      padding: 4px 8px;
+      margin-bottom: 2px;
+    }
+  
+    .variable-token {
+      padding: 1px 3px;
+      font-size: 0.9em;
+    }
+  
+    .export-button {
+      padding: 6px 12px;
+      font-size: 0.9em;
+    }
+  
+    .variable-list {
+      width: 160px;
+      max-height: 200px;
+      padding: 6px;
+    }
+  
+    .variable-item {
+      padding: 6px;
+      font-size: 0.9em;
+    }
+  
+    .no-variables {
+      padding: 6px;
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .editor-container {
+      padding: 6px;
+    }
+  
+    .toolbar {
+      gap: 4px;
+    }
+  
+    .toolbar-button {
+      padding: 5px;
+      font-size: 0.85em;
+    }
+  
+    .editor-content {
+      padding: 8px 10px;
+      min-height: 120px;
+      border-radius: 2px;
+    }
+  
+    .editor-content h2 {
+      font-size: 1em;
+      padding-left: 6px;
+    }
+  
+    .editor-content p {
+      padding: 3px 6px;
+      margin-bottom: 1px;
+    }
+  
+    .variable-token {
+      padding: 1px 2px;
+      font-size: 0.85em;
+    }
+  
+    .export-button {
+      padding: 5px 10px;
+      font-size: 0.85em;
+    }
+  
+    .variable-list {
+      width: 140px;
+      max-height: 180px;
+      padding: 4px;
+    }
+  
+    .variable-item {
+      padding: 4px;
+      font-size: 0.85em;
+    }
+  
+    .no-variables {
+      padding: 4px;
+      font-size: 0.85em;
+    }
   }
